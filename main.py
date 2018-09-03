@@ -82,6 +82,13 @@ cfg_load_button.place(x=700, y=60, width=150, height=25)
 
 cfg_save_button = tk.Button(root, text="Сохранить конф.", command=save_cfg)
 cfg_save_button.place(x=700, y=90, width=150, height=25)
+
+# циклирвоание
+cfg_load_button = tk.Button(root, text="Разово", command=load_cfg)
+cfg_load_button.place(x=700, y=150, width=150, height=25)
+
+cfg_save_button = tk.Button(root, text="Цикл", command=save_cfg)
+cfg_save_button.place(x=700, y=180, width=150, height=25)
 #
 # Main
 root.mainloop()
